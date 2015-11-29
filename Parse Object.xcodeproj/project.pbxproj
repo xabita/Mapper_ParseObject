@@ -34,6 +34,12 @@
 		D14AC0A21C0B478A0079A34A /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC08A1C0B478A0079A34A /* InCodeMappingProvider.m */; };
 		D14AC0A31C0B478A0079A34A /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC08D1C0B478A0079A34A /* ObjectMapper.m */; };
 		D14AC0A41C0B478A0079A34A /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC08F1C0B478A0079A34A /* ObjectMappingInfo.m */; };
+		D14AC0A91C0B48720079A34A /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0A81C0B48720079A34A /* Declarations.m */; };
+		D14AC0AC1C0B48820079A34A /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0AB1C0B48820079A34A /* WebServices.m */; };
+		D14AC0AF1C0B488F0079A34A /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0AE1C0B488F0079A34A /* Parser.m */; };
+		D14AC0B21C0B48AE0079A34A /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0B11C0B48AE0079A34A /* OCMapperConfig.m */; };
+		D14AC0B61C0B55F90079A34A /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0B51C0B55F90079A34A /* ObjectResponse.m */; };
+		D14AC0BA1C0B59B70079A34A /* ZonesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0B91C0B59B70079A34A /* ZonesObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +99,18 @@
 		D14AC08E1C0B478A0079A34A /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		D14AC08F1C0B478A0079A34A /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		D14AC0901C0B478A0079A34A /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		D14AC0A71C0B48720079A34A /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		D14AC0A81C0B48720079A34A /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		D14AC0AA1C0B48820079A34A /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		D14AC0AB1C0B48820079A34A /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		D14AC0AD1C0B488F0079A34A /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		D14AC0AE1C0B488F0079A34A /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		D14AC0B01C0B48AE0079A34A /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		D14AC0B11C0B48AE0079A34A /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
+		D14AC0B41C0B55F90079A34A /* ObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectResponse.h; sourceTree = "<group>"; };
+		D14AC0B51C0B55F90079A34A /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
+		D14AC0B81C0B59B70079A34A /* ZonesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZonesObject.h; sourceTree = "<group>"; };
+		D14AC0B91C0B59B70079A34A /* ZonesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonesObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +143,10 @@
 		D14AC03F1C0B459E0079A34A /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
+				D14AC05A1C0B464E0079A34A /* Main */,
 				D14AC05C1C0B477D0079A34A /* Classes */,
 				D14AC05B1C0B46550079A34A /* Controllers */,
-				D14AC05A1C0B464E0079A34A /* Main */,
+				D14AC0A51C0B483C0079A34A /* Models */,
 				D14AC0491C0B459E0079A34A /* Main.storyboard */,
 				D14AC04F1C0B459E0079A34A /* Assets.xcassets */,
 				D14AC0511C0B459E0079A34A /* LaunchScreen.storyboard */,
@@ -151,6 +170,14 @@
 			children = (
 				D14AC0431C0B459E0079A34A /* AppDelegate.h */,
 				D14AC0441C0B459E0079A34A /* AppDelegate.m */,
+				D14AC0A71C0B48720079A34A /* Declarations.h */,
+				D14AC0A81C0B48720079A34A /* Declarations.m */,
+				D14AC0AA1C0B48820079A34A /* WebServices.h */,
+				D14AC0AB1C0B48820079A34A /* WebServices.m */,
+				D14AC0AD1C0B488F0079A34A /* Parser.h */,
+				D14AC0AE1C0B488F0079A34A /* Parser.m */,
+				D14AC0B01C0B48AE0079A34A /* OCMapperConfig.h */,
+				D14AC0B11C0B48AE0079A34A /* OCMapperConfig.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -272,6 +299,33 @@
 			path = "In Code Mapping";
 			sourceTree = "<group>";
 		};
+		D14AC0A51C0B483C0079A34A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D14AC0B31C0B55D90079A34A /* General */,
+				D14AC0B71C0B59A30079A34A /* Zones */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D14AC0B31C0B55D90079A34A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D14AC0B41C0B55F90079A34A /* ObjectResponse.h */,
+				D14AC0B51C0B55F90079A34A /* ObjectResponse.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		D14AC0B71C0B59A30079A34A /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				D14AC0B81C0B59B70079A34A /* ZonesObject.h */,
+				D14AC0B91C0B59B70079A34A /* ZonesObject.m */,
+			);
+			name = Zones;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,6 +404,7 @@
 				D14AC0941C0B478A0079A34A /* SBJsonStreamParserAccumulator.m in Sources */,
 				D14AC0961C0B478A0079A34A /* SBJsonStreamParserState.m in Sources */,
 				D14AC09D1C0B478A0079A34A /* NSDictionary+ObjectMapper.m in Sources */,
+				D14AC0B21C0B48AE0079A34A /* OCMapperConfig.m in Sources */,
 				D14AC09C1C0B478A0079A34A /* SBJsonWriter.m in Sources */,
 				D14AC0A21C0B478A0079A34A /* InCodeMappingProvider.m in Sources */,
 				D14AC04E1C0B459E0079A34A /* Parse_Object.xcdatamodeld in Sources */,
@@ -357,14 +412,19 @@
 				D14AC0921C0B478A0079A34A /* SBJsonParser.m in Sources */,
 				D14AC09B1C0B478A0079A34A /* SBJsonUTF8Stream.m in Sources */,
 				D14AC0931C0B478A0079A34A /* SBJsonStreamParser.m in Sources */,
+				D14AC0BA1C0B59B70079A34A /* ZonesObject.m in Sources */,
 				D14AC09A1C0B478A0079A34A /* SBJsonTokeniser.m in Sources */,
+				D14AC0AF1C0B488F0079A34A /* Parser.m in Sources */,
 				D14AC0911C0B478A0079A34A /* NSObject+SBJson.m in Sources */,
 				D14AC0421C0B459E0079A34A /* main.m in Sources */,
+				D14AC0AC1C0B48820079A34A /* WebServices.m in Sources */,
 				D14AC0A31C0B478A0079A34A /* ObjectMapper.m in Sources */,
+				D14AC0A91C0B48720079A34A /* Declarations.m in Sources */,
 				D14AC0971C0B478A0079A34A /* SBJsonStreamWriter.m in Sources */,
 				D14AC0951C0B478A0079A34A /* SBJsonStreamParserAdapter.m in Sources */,
 				D14AC0A41C0B478A0079A34A /* ObjectMappingInfo.m in Sources */,
 				D14AC0A01C0B478A0079A34A /* ObjectInstanceProvider.m in Sources */,
+				D14AC0B61C0B55F90079A34A /* ObjectResponse.m in Sources */,
 				D14AC09F1C0B478A0079A34A /* ManagedObjectInstanceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Parse Object/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Parse-Object";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Parse Object/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Parse-Object";
 				PRODUCT_NAME = "$(TARGET_NAME)";
