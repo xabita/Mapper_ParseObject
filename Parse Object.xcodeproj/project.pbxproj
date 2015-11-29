@@ -60,10 +60,8 @@
 		D14AC03F1C0B459E0079A34A /* Parse Object */ = {
 			isa = PBXGroup;
 			children = (
-				D14AC0431C0B459E0079A34A /* AppDelegate.h */,
-				D14AC0441C0B459E0079A34A /* AppDelegate.m */,
-				D14AC0461C0B459E0079A34A /* ViewController.h */,
-				D14AC0471C0B459E0079A34A /* ViewController.m */,
+				D14AC05B1C0B46550079A34A /* Controllers */,
+				D14AC05A1C0B464E0079A34A /* Main */,
 				D14AC0491C0B459E0079A34A /* Main.storyboard */,
 				D14AC04F1C0B459E0079A34A /* Assets.xcassets */,
 				D14AC0511C0B459E0079A34A /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				D14AC0411C0B459E0079A34A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14AC05A1C0B464E0079A34A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D14AC0431C0B459E0079A34A /* AppDelegate.h */,
+				D14AC0441C0B459E0079A34A /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D14AC05B1C0B46550079A34A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D14AC0461C0B459E0079A34A /* ViewController.h */,
+				D14AC0471C0B459E0079A34A /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
