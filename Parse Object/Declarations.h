@@ -20,6 +20,8 @@
 
 extern NSDictionary *mjsonRegister;
 extern NSDictionary *mjsonZones;
+extern NSDictionary *mjsonWeather;
+
 @interface Declarations : NSObject
 
 @end

@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self getRemoteData];
+    // [self getRemoteData];
+    [self getWeather];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,17 +52,11 @@
         NSString *name                  = ((ZonesObject *)objectResponse.zones[i]).name;
         print(NSLog(@"name = %@", name))
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+}
+
+-(void)getWeather{
+    mjsonWeather=[WebServices getWeather];
+    print(NSLog(@"mjsonWeather = %@", mjsonWeather))
 }
 
 @end

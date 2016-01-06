@@ -12,6 +12,7 @@
 #define nURLServerAWS               @"http://amx.smartplace.mx"
 #define nURLUserRegister            @"/user/register"
 #define nURLGetRiskZones            @"/user/get/risk_zones"
+#define nURLWeather                 @"http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=2de143494c0b295cca9337e1e96b00e0"
 
 #define nGET                        0
 #define nPOST                       1
@@ -29,6 +30,7 @@
     [diData setValue:stTimestamp forKey:@"timestamp"];
     NSString  *stData           = [diData JSONRepresentation];
     return [self sendPost:([nURLServerAWS stringByAppendingString:nURLUserRegister]) forData:stData andMode:nPOST];
+    
 }
 
 /**********************************************************************************************/
@@ -41,6 +43,21 @@
     NSString  *stData           = [diData JSONRepresentation];
     return [self sendPost:([nURLServerAWS stringByAppendingString:nURLGetRiskZones]) forData:stData andMode:nPOST];
 }
+
+/**********************************************************************************************/
+#pragma mark - weather methods
+/**********************************************************************************************/
++ (NSDictionary *)getWeather {
+    print(NSLog(@"getWeather"))
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc]init];
+    /*  NSString    *stTimestamp    = nTimeStamp;
+     [diData setValue:pushToken forKey:@"pushToken"];
+     [diData setValue:stTimestamp forKey:@"timestamp"];*/
+    NSString  *stData           = [diData JSONRepresentation];
+    return [self sendPost:(nURLWeather) forData:stData andMode:nGET];
+}
+
+
 /**********************************************************************************************/
 #pragma mark - json common method
 /**********************************************************************************************/

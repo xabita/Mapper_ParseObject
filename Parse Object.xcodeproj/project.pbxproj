@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268EE9071C3CFBB500E930DE /* WeatherResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE9061C3CFBB500E930DE /* WeatherResponse.m */; };
 		D14AC0421C0B459E0079A34A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0411C0B459E0079A34A /* main.m */; };
 		D14AC0451C0B459E0079A34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0441C0B459E0079A34A /* AppDelegate.m */; };
 		D14AC0481C0B459E0079A34A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0471C0B459E0079A34A /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		268EE9051C3CFBB500E930DE /* WeatherResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherResponse.h; sourceTree = "<group>"; };
+		268EE9061C3CFBB500E930DE /* WeatherResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherResponse.m; sourceTree = "<group>"; };
 		D14AC03D1C0B459E0079A34A /* Parse Object.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Object.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14AC0411C0B459E0079A34A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D14AC0431C0B459E0079A34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		268EE9041C3CFB6000E930DE /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				268EE9051C3CFBB500E930DE /* WeatherResponse.h */,
+				268EE9061C3CFBB500E930DE /* WeatherResponse.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
 		D14AC0341C0B459E0079A34A = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +314,7 @@
 		D14AC0A51C0B483C0079A34A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				268EE9041C3CFB6000E930DE /* Weather */,
 				D14AC0B31C0B55D90079A34A /* General */,
 				D14AC0B71C0B59A30079A34A /* Zones */,
 			);
@@ -400,6 +413,7 @@
 				D14AC0481C0B459E0079A34A /* ViewController.m in Sources */,
 				D14AC0451C0B459E0079A34A /* AppDelegate.m in Sources */,
 				D14AC0981C0B478A0079A34A /* SBJsonStreamWriterAccumulator.m in Sources */,
+				268EE9071C3CFBB500E930DE /* WeatherResponse.m in Sources */,
 				D14AC09E1C0B478A0079A34A /* NSObject+ObjectMapper.m in Sources */,
 				D14AC0941C0B478A0079A34A /* SBJsonStreamParserAccumulator.m in Sources */,
 				D14AC0961C0B478A0079A34A /* SBJsonStreamParserState.m in Sources */,
@@ -574,6 +588,7 @@
 				D14AC0591C0B459E0079A34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
