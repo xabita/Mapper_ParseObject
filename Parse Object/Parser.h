@@ -12,4 +12,5 @@
 @interface Parser : NSObject
 + (ObjectResponse *)parseRegisterObject;
 + (ObjectResponse *)parseZoneObject;
++ (WeatherResponse *)parseWeatherResponse;
 @end

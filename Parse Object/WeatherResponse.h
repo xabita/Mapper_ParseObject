@@ -16,5 +16,8 @@
 
 @property (nonatomic,strong) NSString *ID;
 
+@property (nonatomic,strong) NSMutableArray *weather;
+
+
 
 @end

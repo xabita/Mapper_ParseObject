@@ -10,6 +10,7 @@
 #import "SBJson.h"
 #import "ObjectMapper.h"
 #import "ObjectResponse.h"
+#import "WeatherResponse.h"
 
 //Debug
 #define nDebugEnable        1
