@@ -11,6 +11,8 @@
 #import "ObjectMapper.h"
 #import "ObjectResponse.h"
 #import "WeatherResponse.h"
+#import "SysResponse.h"
+
 
 //Debug
 #define nDebugEnable        1
@@ -22,6 +24,8 @@
 extern NSDictionary *mjsonRegister;
 extern NSDictionary *mjsonZones;
 extern NSDictionary *mjsonWeather;
+extern NSDictionary *mjsonSys;
+
 
 @interface Declarations : NSObject
 

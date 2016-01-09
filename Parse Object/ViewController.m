@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    //  [self getRemoteData];
-    [self getWeather];
+//    [self getWeather];
+    [self getSys];
     
 }
 
@@ -66,5 +67,20 @@
     NSString *description = ((WeatherObject*) weatherResponse.weather[0]).descriptionWeather;
     print(NSLog(@"description = %@",description));
 }
+
+
+-(void)getSys{
+    
+    mjsonSys = [WebServices getSys];
+    print(NSLog(@"mjsonSys = %@", mjsonSys))
+    SysResponse *sysResponse = [Parser parseSysResponse];
+    
+    print(NSLog(@"sysResponse = %@", sysResponse.name))
+   // int size = (int)[sysResponse.sys count];
+  // print(NSLog(@"size = %d",size));
+  //  NSString *descSunset = ((SysClimaObject*) sysResponse.sys[0]).sunset;
+   // print(NSLog(@"descSunset = %@",descSunset));
+}
+
 
 @end

@@ -11,11 +11,8 @@
 @interface WeatherResponse : NSObject
 
 @property (nonatomic,strong) NSString *base;
-
 @property (nonatomic,strong) NSString *dt;
-
 @property (nonatomic,strong) NSString *ID;
-
 @property (nonatomic,strong) NSMutableArray *weather;
 
 

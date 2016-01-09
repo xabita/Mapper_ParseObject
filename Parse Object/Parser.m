@@ -40,4 +40,19 @@
     }
     return nil;
 }
+
+
+//-------------------------------------------------------------------
++ (SysResponse *)parseSysResponse{
+    //check for valid value
+    if(mjsonSys != nil) {
+        // Using ObjectMapper Directly
+        SysResponse *customizedObject = [[ObjectMapper sharedInstance] objectFromSource:mjsonSys toInstanceOfClass:[SysResponse class]];
+        return customizedObject;
+    }
+    return nil;
+}
+
+
+
 @end

@@ -59,6 +59,20 @@
 
 
 /**********************************************************************************************/
+#pragma mark - Sys methods
+/**********************************************************************************************/
++ (NSDictionary *)getSys {
+    print(NSLog(@"getSys"))
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc]init];
+    /*  NSString    *stTimestamp    = nTimeStamp;
+     [diData setValue:pushToken forKey:@"pushToken"];
+     [diData setValue:stTimestamp forKey:@"timestamp"];*/
+    NSString  *stData           = [diData JSONRepresentation];
+    return [self sendPost:(nURLWeather) forData:stData andMode:nGET];
+}
+
+
+/**********************************************************************************************/
 #pragma mark - json common method
 /**********************************************************************************************/
 + (NSDictionary *) sendPost:(NSString *) postUrl forData:(NSString *) data andMode:(BOOL)mode {

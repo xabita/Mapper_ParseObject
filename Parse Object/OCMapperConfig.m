@@ -22,11 +22,23 @@
     [inCodeMappingProvider mapFromDictionaryKey:@"zones" toPropertyKey:@"zones"
                                  withObjectType:[ZonesObject class] forClass:[ObjectResponse class]];
     
+    
+    /******************* Weather **********************/
+    
     [inCodeMappingProvider mapFromDictionaryKey:@"weather" toPropertyKey:@"weather"
                                  withObjectType:[WeatherObject class] forClass:[WeatherResponse class]];
    
     [inCodeMappingProvider mapFromDictionaryKey:@"description" toPropertyKey:@"descriptionWeather"
                                  withObjectType:[NSString class] forClass:[WeatherObject class]];
+    /******************* Sys **********************/
+    
+    [inCodeMappingProvider mapFromDictionaryKey:@"sys" toPropertyKey:@"sys"
+                                 withObjectType:[SysClimaObject class] forClass:[SysResponse class]];
+    
+    [inCodeMappingProvider mapFromDictionaryKey:@"sunset" toPropertyKey:@"sunset"
+                                 withObjectType:[NSString class] forClass:[SysClimaObject class]];
+    
+   
     
     
     

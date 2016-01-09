@@ -13,4 +13,5 @@
 + (ObjectResponse *)parseRegisterObject;
 + (ObjectResponse *)parseZoneObject;
 + (WeatherResponse *)parseWeatherResponse;
++ (SysResponse *)parseSysResponse;
 @end

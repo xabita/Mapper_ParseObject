@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		268EE9071C3CFBB500E930DE /* WeatherResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE9061C3CFBB500E930DE /* WeatherResponse.m */; };
 		268EE90A1C3E424500E930DE /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE9091C3E424500E930DE /* WeatherObject.m */; };
+		268EE90E1C3E552800E930DE /* SysResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE90D1C3E552800E930DE /* SysResponse.m */; };
+		268EE9111C3E564500E930DE /* SysObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE9101C3E564500E930DE /* SysObject.m */; };
+		268EE9151C3E5B0300E930DE /* SysClimaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 268EE9141C3E5B0300E930DE /* SysClimaObject.m */; };
 		D14AC0421C0B459E0079A34A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0411C0B459E0079A34A /* main.m */; };
 		D14AC0451C0B459E0079A34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0441C0B459E0079A34A /* AppDelegate.m */; };
 		D14AC0481C0B459E0079A34A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AC0471C0B459E0079A34A /* ViewController.m */; };
@@ -49,6 +52,12 @@
 		268EE9061C3CFBB500E930DE /* WeatherResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherResponse.m; sourceTree = "<group>"; };
 		268EE9081C3E424500E930DE /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
 		268EE9091C3E424500E930DE /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
+		268EE90C1C3E552800E930DE /* SysResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysResponse.h; sourceTree = "<group>"; };
+		268EE90D1C3E552800E930DE /* SysResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysResponse.m; sourceTree = "<group>"; };
+		268EE90F1C3E564500E930DE /* SysObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysObject.h; sourceTree = "<group>"; };
+		268EE9101C3E564500E930DE /* SysObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysObject.m; sourceTree = "<group>"; };
+		268EE9131C3E5B0300E930DE /* SysClimaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysClimaObject.h; sourceTree = "<group>"; };
+		268EE9141C3E5B0300E930DE /* SysClimaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysClimaObject.m; sourceTree = "<group>"; };
 		D14AC03D1C0B459E0079A34A /* Parse Object.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parse Object.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14AC0411C0B459E0079A34A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D14AC0431C0B459E0079A34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +153,12 @@
 		268EE90B1C3E542600E930DE /* Sys */ = {
 			isa = PBXGroup;
 			children = (
+				268EE90C1C3E552800E930DE /* SysResponse.h */,
+				268EE90D1C3E552800E930DE /* SysResponse.m */,
+				268EE90F1C3E564500E930DE /* SysObject.h */,
+				268EE9101C3E564500E930DE /* SysObject.m */,
+				268EE9131C3E5B0300E930DE /* SysClimaObject.h */,
+				268EE9141C3E5B0300E930DE /* SysClimaObject.m */,
 			);
 			name = Sys;
 			sourceTree = "<group>";
@@ -428,6 +443,7 @@
 				D14AC0981C0B478A0079A34A /* SBJsonStreamWriterAccumulator.m in Sources */,
 				268EE9071C3CFBB500E930DE /* WeatherResponse.m in Sources */,
 				D14AC09E1C0B478A0079A34A /* NSObject+ObjectMapper.m in Sources */,
+				268EE90E1C3E552800E930DE /* SysResponse.m in Sources */,
 				D14AC0941C0B478A0079A34A /* SBJsonStreamParserAccumulator.m in Sources */,
 				D14AC0961C0B478A0079A34A /* SBJsonStreamParserState.m in Sources */,
 				D14AC09D1C0B478A0079A34A /* NSDictionary+ObjectMapper.m in Sources */,
@@ -450,7 +466,9 @@
 				D14AC0A91C0B48720079A34A /* Declarations.m in Sources */,
 				D14AC0971C0B478A0079A34A /* SBJsonStreamWriter.m in Sources */,
 				D14AC0951C0B478A0079A34A /* SBJsonStreamParserAdapter.m in Sources */,
+				268EE9151C3E5B0300E930DE /* SysClimaObject.m in Sources */,
 				D14AC0A41C0B478A0079A34A /* ObjectMappingInfo.m in Sources */,
+				268EE9111C3E564500E930DE /* SysObject.m in Sources */,
 				D14AC0A01C0B478A0079A34A /* ObjectInstanceProvider.m in Sources */,
 				D14AC0B61C0B55F90079A34A /* ObjectResponse.m in Sources */,
 				D14AC09F1C0B478A0079A34A /* ManagedObjectInstanceProvider.m in Sources */,

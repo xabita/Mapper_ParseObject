@@ -11,6 +11,7 @@
 NSDictionary *mjsonRegister;
 NSDictionary *mjsonZones;
 NSDictionary *mjsonWeather;
+NSDictionary *mjsonSys;
 
 @implementation Declarations
 
